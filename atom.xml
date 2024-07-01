@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>WW</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-07-01T03:39:36.358Z</updated>
+  <updated>2024-07-01T09:04:33.548Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Ank</name>
     
   </author>
   
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="http://example.com/2024/07/01/hello-world/"/>
     <id>http://example.com/2024/07/01/hello-world/</id>
-    <published>2024-07-01T03:39:36.357Z</published>
-    <updated>2024-07-01T03:39:36.358Z</updated>
+    <published>2024-07-01T10:01:52.809Z</published>
+    <updated>2024-07-01T09:04:33.548Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -29,6 +29,26 @@
       
       
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>搭建自己的博客</title>
+    <link href="http://example.com/2024/07/01/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2024/07/01/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <published>2024-07-01T09:15:17.000Z</published>
+    <updated>2024-07-01T09:54:02.148Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="使用-Hexo-搭建博客"><a href="#使用-Hexo-搭建博客" class="headerlink" title="使用 Hexo 搭建博客"></a>使用 Hexo 搭建博客</h1><h2 id="什么是-Hexo"><a href="#什么是-Hexo" class="headerlink" title="什么是 Hexo"></a>什么是 Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他标记语言）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h3><p>Node.js (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</p><p>Git</p><h3 id="更新-Node-js"><a href="#更新-Node-js" class="headerlink" title="更新 Node.js"></a>更新 Node.js</h3><ol><li>查看当前版本<br><br>npm -v</li><li>更新到最新版<br><br>npm install npm@latest -g</li></ol><h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><h4 id="打开-cmd-输入指令"><a href="#打开-cmd-输入指令" class="headerlink" title="打开 cmd 输入指令"></a>打开 cmd 输入指令</h4><p>$ npm install -g hexo-cli</p><h4 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h4><p>$ hexo v</p><h4 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h4><p>$ hexo init</p><h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><p>1.在 <a href="https://hexo.io/themes/">https://hexo.io/themes/</a> 选择主题并跳转到 github <br><br>2.clone <a href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a></p><h4 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h4><p>打开根目录下的 _config.yml,找到 theme 修改为主题文件名</p><h4 id="部署-hexo"><a href="#部署-hexo" class="headerlink" title="部署 hexo"></a>部署 hexo</h4><p>$ hexo g</p><h4 id="启动-hexo-本地化预览"><a href="#启动-hexo-本地化预览" class="headerlink" title="启动 hexo 本地化预览"></a>启动 hexo 本地化预览</h4><p>$ hexo s</p><h2 id="部署到-github"><a href="#部署到-github" class="headerlink" title="部署到 github"></a>部署到 github</h2><ol><li>github 创建仓库,后缀.github.io</li><li>配置 SSH 详情见 <a href="https://developer.aliyun.com/article/1218122">https://developer.aliyun.com/article/1218122</a></li><li>修改_config.yml 文件如下:</li><li>根目录下安装 deploy-git ，也就是部署的命令,这样才能用命令部署到 GitHub <br><br>npm install hexo-deployer-git –save</li><li>依次执行 <br><br>hexo c #清除缓存文件 db.json 和已生成的静态文件 public <br><br>hexo g #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)<br><br>hexo d #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)<br></li></ol><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="更改主题后启动服务器在本地页面上显示各种信息如：extends-includes-layout-pug-block-content-include-includes-recent-posts-pug-include"><a href="#更改主题后启动服务器在本地页面上显示各种信息如：extends-includes-layout-pug-block-content-include-includes-recent-posts-pug-include" class="headerlink" title="更改主题后启动服务器在本地页面上显示各种信息如：extends includes&#x2F;layout.pug block content include includes&#x2F;recent-posts.pug include"></a>更改主题后启动服务器在本地页面上显示各种信息如：extends includes&#x2F;layout.pug block content include includes&#x2F;recent-posts.pug include</h3><h3 id="部署到-github-上后在-google-上无法访问，在-edge-上可以访问"><a href="#部署到-github-上后在-google-上无法访问，在-edge-上可以访问" class="headerlink" title="部署到 github 上后在 google 上无法访问，在 edge 上可以访问"></a>部署到 github 上后在 google 上无法访问，在 edge 上可以访问</h3><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><img src="https://hexo.io/zh-cn/" alt="Hexo"><br><img src="https://juejin.cn/post/7161634586824212488" alt="如何更新NodeJs到最新版本？"><br><img src="https://sspai.com/post/62441" alt="hexo本地化部署"><br><img src="https://blog.csdn.net/qq_51714990/article/details/127267185" alt="Hexo更换主题后，启动页面报错"><br><img src="https://developer.aliyun.com/article/1218122" alt="将hexo部署到GitHub上"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;使用-Hexo-搭建博客&quot;&gt;&lt;a href=&quot;#使用-Hexo-搭建博客&quot; class=&quot;headerlink&quot; title=&quot;使用 Hexo 搭建博客&quot;&gt;&lt;/a&gt;使用 Hexo 搭建博客&lt;/h1&gt;&lt;h2 id=&quot;什么是-Hexo&quot;&gt;&lt;a href=&quot;#什么是-H</summary>
       
     
     
