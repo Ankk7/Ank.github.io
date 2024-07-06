@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-07-01T09:04:33.548Z</updated>
+  <updated>2024-07-06T11:09:34.973Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Unity 资源管理基础知识.md</title>
+    <link href="http://example.com/2024/07/06/Unity-%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <id>http://example.com/2024/07/06/Unity-%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</id>
+    <published>2024-07-06T11:08:12.000Z</published>
+    <updated>2024-07-06T11:09:34.973Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="各类型资源以及导入面板相关参数"><a href="#各类型资源以及导入面板相关参数" class="headerlink" title="各类型资源以及导入面板相关参数"></a>各类型资源以及导入面板相关参数</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;各类型资源以及导入面板相关参数&quot;&gt;&lt;a href=&quot;#各类型资源以及导入面板相关参数&quot; class=&quot;headerlink&quot; title=&quot;各类型资源以及导入面板相关参数&quot;&gt;&lt;/a&gt;各类型资源以及导入面板相关参数&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    <category term="unity基础" scheme="http://example.com/categories/unity%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="unity" scheme="http://example.com/tags/unity/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
